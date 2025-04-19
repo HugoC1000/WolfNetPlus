@@ -7,7 +7,17 @@
     "content_scripts": [
       {
         "matches": ["https://wpga.myschoolapp.com/*"],
-        "js": ["scrollNav.js","rearrangeNav.js", "removeTeacher.js", "rearrangeProgress.js", "siteInfo.js", "loadCSS.js", "assignmentCenterColor.js", "rearrangeAssignmentDetail.js"],
+        "js": [
+            "scrollNav.js",
+            "rearrangeNav.js", 
+            "removeTeacher.js", 
+            "rearrangeProgress.js", 
+            "siteInfo.js", 
+            "loadCSS.js", 
+            "assignmentCenterColor.js", 
+            "rearrangeAssignmentDetail.js",
+            "changeCourseName.js"
+        ],
         "css": [
             "content.css",
             "modules/navbar.css",

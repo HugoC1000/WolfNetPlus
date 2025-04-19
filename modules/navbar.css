@@ -39,6 +39,8 @@ ul.topnavbar {
 
 .subnav{
     border-radius: 12px !important;
+    border-style: none !important;
+    border-width: 0px !important;
 }
 
 #skyui-header{

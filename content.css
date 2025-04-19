@@ -87,3 +87,7 @@ body {
 .fa{
     font-size: 9px;
 }
+
+.styleProp {
+    display: none !important;
+}
