@@ -12,6 +12,7 @@ WolfNet+ is a browser extension that enhances the WolfNet experience by injectin
     - Changed background of site
     - Changed name of site to WolfNet (`siteInfo.js`)
     - Added favicon of site (`siteInfo.js`)
+    - Changed font
 - **Nav**:
     - Made subnav hide when scrolling (`scrollNav`). 
     - Made nav translucent. 
@@ -25,6 +26,9 @@ WolfNet+ is a browser extension that enhances the WolfNet experience by injectin
 - **Assignment Center**:
     - Changed colouring of assignments. 
     - Added box shadow to graded assignments. 
+- **Class Detail**:
+    - Default to Sortable order for viewing assignments. 
+    - Better roster view
 
 ## Installation
 

@@ -16,7 +16,8 @@
             "src/js/utils/loadCSS.js", 
             "src/js/content-scripts/assignmentCenterColor.js", 
             "src/js/content-scripts/rearrangeAssignmentDetail.js",
-            "src/js/content-scripts/changeCourseName.js"
+            "src/js/content-scripts/changeCourseName.js",
+            "src/js/content-scripts/courseDetail.js"
         ],
         "css": [
             "src/css/global/content.css",
