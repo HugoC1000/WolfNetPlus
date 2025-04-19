@@ -75,9 +75,6 @@ p { font-family: var(--font-secondary); }
   font-size: smaller;
 }
 
-a {
-  color: inherit;
-}
 
 html {
   scroll-behavior: smooth;
@@ -85,4 +82,8 @@ html {
 
 body {
     background: radial-gradient(circle, hsl(231, 97.7%, 83.1%) 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+.fa{
+    font-size: 9px;
 }

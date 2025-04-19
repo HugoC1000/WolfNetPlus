@@ -1,0 +1,21 @@
+.sky-box {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1) !important;
+    border-radius: 12px !important;
+    background-color: white !important;
+    padding: 0.75rem !important;
+    margin-bottom: 1rem;
+    border: none !important;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-radius: 12px;
+    width: 97% !important;
+}
+
+app-assignment-view-details{
+    display: flex;
+    justify-content: center;
+}

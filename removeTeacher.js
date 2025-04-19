@@ -38,7 +38,9 @@
     modifyColumns();
 
     // Watch for dynamic content
-    const observer = new MutationObserver(modifyColumns);
+    const observer = new MutationObserver(() => {
+        modifyColumns();
+    });
     observer.observe(document.body, {
         childList: true,
         subtree: true

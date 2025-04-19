@@ -5,6 +5,8 @@
     padding: 0.75rem !important;
     margin-bottom: 1rem;
     border: none !important;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .thumbnail{
@@ -14,6 +16,8 @@
     padding: 0.75rem !important;
     margin-bottom: 1rem;
     border: none !important;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 @keyframes fadeSlideIn {
@@ -47,3 +51,18 @@
   .nav-tabs{
     margin-bottom: 10px;
   }
+
+  .bb-card {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1) !important;
+    border-radius: 12px !important;
+    background-color: white !important;
+    padding: 0.75rem !important;
+    margin-bottom: 1rem;
+    border: none !important;
+  }
+
+  .bb-card:hover, .thumbnail:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+    transition: all 0.2s ease-in-out;
+}

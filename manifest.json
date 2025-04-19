@@ -7,12 +7,22 @@
     "content_scripts": [
       {
         "matches": ["https://wpga.myschoolapp.com/*"],
-        "js": ["scrollNav.js","rearrangeNav.js", "removeTeacher.js", "rearrangeProgress.js"],
-        "css": ["content.css"]
+        "js": ["scrollNav.js","rearrangeNav.js", "removeTeacher.js", "rearrangeProgress.js", "siteInfo.js", "loadCSS.js", "assignmentCenterColor.js", "rearrangeAssignmentDetail.js"],
+        "css": [
+            "content.css",
+            "modules/navbar.css",
+            "modules/cards.css",
+            "modules/progressbar.css",
+            "modules/calender.css",
+            "modules/classdetail.css",
+            "modules/progress.css",
+            "modules/assignment-center.css",
+            "modules/schedule.css",
+            "modules/assignment-detail.css"
+          ]
       }
     ],
     "icons": {
-      "48": "icon.png"
     }
   }
   
