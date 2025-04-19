@@ -9,6 +9,7 @@ WolfNet+ is a browser extension that enhances the WolfNet experience by injectin
 ### List of Changes
 - **General**:
     - Better Design
+    - Faster load speed
     - Changed background of site
     - Changed name of site to WolfNet (`siteInfo.js`)
     - Added favicon of site (`siteInfo.js`)
@@ -45,6 +46,12 @@ Click "Load unpacked"  and select the project folder.
 For Firefox: Go to about:debugging/
 Go to This Firefox
 Load Tempoary Addon and select the manifest.json
+
+## FAQ
+Q: Will this extension be avaliable for Safari? 
+A: Apple Developer Program costs $99 USD a year. I do not see myself paying that in the future. 
+
+
 
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request with your changes.

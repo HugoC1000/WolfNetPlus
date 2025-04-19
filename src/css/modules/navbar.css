@@ -54,3 +54,7 @@ ul.topnavbar {
 #site-nav-bottom{
     height: 0px;
 }
+
+#site-top-spacer {
+    height: 130px !important;
+}
