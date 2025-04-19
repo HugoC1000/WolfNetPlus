@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "WolfNet+",
+    "version": "1.0",
+    "description": "Injects modern CSS in the style of WolfKey into WolfNet.",
+    "permissions": ["activeTab", "scripting"],
+    "content_scripts": [
+      {
+        "matches": ["https://wpga.myschoolapp.com/*"],
+        "js": ["scrollNav.js","rearrangeNav.js", "removeTeacher.js", "rearrangeProgress.js"],
+        "css": ["content.css"]
+      }
+    ],
+    "icons": {
+      "48": "icon.png"
+    }
+  }
+  
