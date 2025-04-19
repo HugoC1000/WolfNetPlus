@@ -15,7 +15,7 @@ WolfNet+ is a browser extension that enhances the WolfNet experience by injectin
     - Added favicon of site (`siteInfo.js`)
     - Changed font
 - **Nav**:
-    - Made subnav hide when scrolling (`scrollNav`). 
+    - Made subnav hide when scrolling (`scrollNav.js`). 
     - Made nav translucent. 
     - Changed logo in top left to one that doesn't have white background (`siteInfo.js`)
 - **Progress Page**:
