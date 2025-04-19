@@ -63,4 +63,18 @@
     } else {
         console.log("Courses container not found.");
     }
+
+    // Handle SPA navigation by observing URL changes
+    let lastUrl = location.href;
+    const urlObserver = new MutationObserver(() => {
+        const currentUrl = location.href;
+        if (currentUrl !== lastUrl) {
+            lastUrl = currentUrl;
+            console.log("URL changed. Reapplying course name updates.");
+            retryCount = 0; // Reset retry count
+            updateCourseNames();
+        }
+    });
+
+    urlObserver.observe(document.body, { childList: true, subtree: true });
 })();

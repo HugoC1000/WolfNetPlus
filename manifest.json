@@ -8,31 +8,30 @@
       {
         "matches": ["https://wpga.myschoolapp.com/*"],
         "js": [
-            "scrollNav.js",
-            "rearrangeNav.js", 
-            "removeTeacher.js", 
-            "rearrangeProgress.js", 
-            "siteInfo.js", 
-            "loadCSS.js", 
-            "assignmentCenterColor.js", 
-            "rearrangeAssignmentDetail.js",
-            "changeCourseName.js"
+            "src/js/content-scripts/scrollNav.js",
+            "src/js/content-scripts/rearrangeNav.js", 
+            "src/js/content-scripts/removeTeacher.js", 
+            "src/js/content-scripts/rearrangeProgress.js", 
+            "src/js/content-scripts/siteInfo.js", 
+            "src/js/utils/loadCSS.js", 
+            "src/js/content-scripts/assignmentCenterColor.js", 
+            "src/js/content-scripts/rearrangeAssignmentDetail.js",
+            "src/js/content-scripts/changeCourseName.js"
         ],
         "css": [
-            "content.css",
-            "modules/navbar.css",
-            "modules/cards.css",
-            "modules/progressbar.css",
-            "modules/calender.css",
-            "modules/classdetail.css",
-            "modules/progress.css",
-            "modules/assignment-center.css",
-            "modules/schedule.css",
-            "modules/assignment-detail.css"
+            "src/css/global/content.css",
+            "src/css/modules/navbar.css",
+            "src/css/modules/cards.css",
+            "src/css/modules/progressbar.css",
+            "src/css/modules/calender.css",
+            "src/css/modules/classdetail.css",
+            "src/css/modules/progress.css",
+            "src/css/modules/assignment-center.css",
+            "src/css/modules/schedule.css",
+            "src/css/modules/assignment-detail.css"
           ]
       }
     ],
     "icons": {
     }
-  }
-  
+}

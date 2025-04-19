@@ -3,6 +3,14 @@
 
     // Change the favicon
     const faviconUrl = "//bbk12e1-cdn.myschoolcdn.com/ftpimages/464/site/1784/favicon/WPGA-favicon.png"; 
+
+    const logoImg = document.querySelector('img[src="//bbk12e1-cdn.myschoolcdn.com/ftpimages/464/logo/75.jpg"]');
+    if (logoImg) {
+        logoImg.src = "//bbk12e1-cdn.myschoolcdn.com/ftpimages/464/logo/WPGAColourNoLogotype.png";
+    } else {
+        console.log("Logo image not found.");
+    }
+
     let link = document.querySelector("link[rel~='icon']");
     if (!link) {
         link = document.createElement('link');
