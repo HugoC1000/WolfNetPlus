@@ -29,7 +29,8 @@
             "src/css/modules/progress.css",
             "src/css/modules/assignment-center.css",
             "src/css/modules/schedule.css",
-            "src/css/modules/assignment-detail.css"
+            "src/css/modules/assignment-detail.css",
+            "src/css/modules/login.css"
           ]
       }
     ],

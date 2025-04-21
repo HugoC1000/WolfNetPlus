@@ -1,0 +1,14 @@
+#site-login-header{
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    min-height:91px;
+}
+
+#site-login-main-wrapper{
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+#Username{
+    border-radius: 5px;
+}

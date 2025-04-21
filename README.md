@@ -31,6 +31,8 @@ WolfNet+ is a browser extension that enhances the WolfNet experience by injectin
 - **Class Detail**:
     - Default to Sortable order for viewing assignments. 
     - Better roster view
+- **Login Page**:
+    - Better styling
 
 ## Installation
 
