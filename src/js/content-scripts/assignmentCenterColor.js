@@ -10,7 +10,7 @@ function updateEventBackgrounds() {
         event.style.backgroundColor = "#C5FFC0"; // light green
       } else if (statusText.includes("Graded")) {
         event.style.boxShadow = "0 0px 30px rgba(41, 234, 14, 0.9)";
-        event.style.backgroundColor = "rgb(180, 255, 143)"; // Green
+        event.style.backgroundColor = "rgb(148, 255, 96)"; // Green
       } else if (statusText.includes("Overdue")){
         event.style.backgroundColor = "#FE4057";
       }
