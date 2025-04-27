@@ -17,7 +17,8 @@
             "src/js/content-scripts/assignmentCenterColor.js", 
             "src/js/content-scripts/rearrangeAssignmentDetail.js",
             "src/js/content-scripts/changeCourseName.js",
-            "src/js/content-scripts/courseDetail.js"
+            "src/js/content-scripts/courseDetail.js",
+            "src/js/content-scripts/insertBackground.js"
         ],
         "css": [
             "src/css/global/content.css",
